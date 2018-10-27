@@ -1,5 +1,5 @@
 from astropy.io import fits
-from IPythonFits import IPythonFits
+from pythonFitsfile.IPythonFits import IPythonFits
 from os import path
 from hashlib import md5
 
@@ -25,7 +25,7 @@ class PythonFits(IPythonFits):
         self.file = fits.open(self.path+"/"+self.filename+".fits")
 
     def getFileSize(self):
-        path.getsize(self.path+"/"+self.filename+".fits")
+        return path.getsize(self.path+"/"+self.filename+".fits")
 
     def closeFile(self):
         #Close the file and returns the checksum
