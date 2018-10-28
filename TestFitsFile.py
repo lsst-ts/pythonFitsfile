@@ -2,6 +2,8 @@ import unittest
 import PythonFits
 import numpy as np
 
+#NEED BETTER TESTING...
+
 class TestFitsFile(unittest.TestCase):
 
     def setUp(self):
