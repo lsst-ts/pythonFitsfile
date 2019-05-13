@@ -1,5 +1,5 @@
 from astropy.io import fits
-from pythonFitsfile.IPythonFits import IPythonFits
+from lsst.ts.pythonFitsfile.IPythonFits import IPythonFits
 from os import path
 from hashlib import md5
 
